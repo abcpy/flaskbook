@@ -1,0 +1,11 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if data.name %}
+  <h1>Hello {{ data.name }}!</h1>
+  <link rel="stylesheet", href="{{ url_for('static', filename='test.css') }}">
+  {% with messages = get_flashed_messages() %}
+       {{ messages }}
+  {% endwith %}
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}

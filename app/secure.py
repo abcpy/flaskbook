@@ -1,0 +1,12 @@
+import cymysql
+
+DEBUG = True
+SQLALCHEMY_DATABASE_URI = 'mysql+cymysql://test:MyNewPass4!@192.168.75.191:3306/firsher'
+SECRET_KEY = b'_5#y2L"F4Q8z\n\xec]/'
+
+
+MAIL_SERVER = 'smtp.163.com'
+MAIL_PORT = 25
+MAIL_USERNAME = '15000728721@163.com'
+MAIL_PASSWORD = 'VRDRQDWVIYIPZMHO'
+MAIL_SENDER = '15000728721@163.com'
